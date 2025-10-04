@@ -3,14 +3,214 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Практические задания</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css'>
 </head>
 <body>
-<h1>Практические задания</h1>
-    <ol>
-        <li><a href="task1.html">Практическое задание № 1</a></li>
-        <li><a href="task2.html">Практическое задание № 2</a></li>
-        <li><a href="task3.html">Практическое задание № 3</a></li>
-    </ol>
+    <header class="header">
+       <nav class="nav container">
+            <div class="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_item">            
+                        <a href="index.html" class="nav_link">Главная</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#izbr" class="nav_link">Избранное</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#otz" class="nav_link">Отзывы</a>
+                    </li>
+                    <li class="nav_item">            
+                        <a href="#footer" class="nav_link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <a class="nav logo" href="#">
+                <i class='bx  bx-camping'></i> TRAVEL
+            </a>
+       </nav>
+    </header>
+
+    <main class="main">
+        <section class="home">
+            <div class="home_container container grid">
+                <div class="home-img-bg">
+                    <img src="img/768x1024.jpg" class="home-img" alt="Я люблю путешествовать по миру">
+                </div>
+
+                <div class="home_social">
+                    <a href="https://vk.com/" class="home_social_link">ВКонтакте</a>
+                    <a href="https://twitter.com" class="home_social_link">Twitter</a>
+                    <a href="https://www.instagram" class="home_social_link">instagram</a>
+                </div>
+
+                <div class="home-data">
+                    <h1 class="home-title">Добро пожаловать на мой сайт</h1>
+                    <p class="home-description">Рассказываю о своих путешествиях</p>
+
+                    <div class="home_btns">
+                    <button class="button home_button">Подписаться</button>
+                                   
+                </div>
+                </div>
+    
+        
+                
+            </div>
+        </section>
+
+        <section class="section container">
+            <hr>
+            <h2 class="section_title" id="izbr">Избранное</h2>
+
+            <div class="fea_container grid">
+            <article class="fea_card">
+                <img class="fea_img" src="img/альпы.jpg">
+
+                <div class="fea_data">
+                    <h3 class="fea_data">
+                        Мое последнее путешествие
+                    </h3>
+                    <span class="fea_description">
+                        От Альп до Сицилии: 3 недели настоящей Италии
+                    </span>
+                </div>
+
+                <button class="button fea_datab">
+                    Подробнее
+                </button>
+            </article>
+
+            <article class="fea_card">
+                <img class="fea_img" src="img/мачу пикчу.jpg">
+
+                <div class="fea_data">
+                    <h3 class="fea_data">
+                        Мое последнее путешествие
+                    </h3>
+                    <span class="fea_description">
+                        4-дневный трек к Мачу-Пикчу
+                    </span>
+                </div>
+
+                <button class="button fea_datab">
+                    Подробнее
+                </button>
+            </article>
+
+            <article class="fea_card">
+                <img class="fea_img" src="img/ханами.jpg">
+
+                <div class="fea_data">
+                    <h3 class="fea_data">
+                        Мое последнее путешествие
+                    </h3>
+                    <span class="fea_description">
+                        Ханами - любование цветением сакуры
+                    </span>
+                </div>
+
+                <button class="button fea_datab">
+                    Подробнее
+                </button>
+            </article>
+        
+        </div>
+        </section>
+
+        <section class="test section container">
+            <div class="test_container grid">
+                <hr id="otz">
+                <h2 class="test_z" id="otz">Отзывы</h2>
+                <div class="test_slider">
+                    <div class="test_card" id="slide1">
+                        <div class="test_quote">
+                            <img src="https://www.svgrepo.com/show/335145/quote.svg " alt="">
+                        </div>
+                        <p class="test_description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt explicabo est voluptatum, velit pariatur perferendis dolorem. Eum quasi impedit consequuntur nostrum corporis? Sint laudantium cupiditate officia velit, delectus molestias dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellendus voluptatem fugit cum nisi alias voluptates expedita consectetur quasi dolores, impedit unde ipsum, ex vitae repudiandae similique tenetur ratione delectus!
+                        </p>
+                        <h3 class="test_data">Сентябрь 30. 2025</h3>
+
+                        <div class="test_author">
+                            <img src="img/test1.jpg" alt="" class="author_img">
+                            <div class="author_data">
+                                <span class="autor_name">Lee Dkovcb</span>
+                            </div>                                                             
+                        </div>
+                        <a class="prev">
+                            <img src="https://img.icons8.com/sf-ultralight-filled/50/000000/arrow-pointing-left.png" alt="" class="prev">
+                        </a>
+                        <a href="#slide2" class="next">
+                            <img src="https://img.icons8.com/sf-ultralight-filled/50/000000/arrow.png" alt="" class="prev">
+
+                        </a>             
+                       </div>
+                
+                
+                <div class="test_card" id="slide2">
+                        <div class="test_quote">
+                            <img src="https://www.svgrepo.com/show/335145/quote.svg " alt="">
+                        </div>
+                        <p class="test_description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt explicabo est voluptatum, velit pariatur perferendis dolorem. Eum quasi impedit consequuntur nostrum corporis? Sint laudantium cupiditate officia velit, delectus molestias dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero labore sit dignissimos, facere repudiandae officiis nulla. Quibusdam, amet! Est illum officia cumque aut sit culpa quam tempore ipsam, saepe ullam!
+                        </p>
+                        <h3 class="test_data">Сентябрь 30. 2025</h3>
+
+                        <div class="test_author">
+                            <img src="img/test2.jpg" alt="" class="author_img">
+                            <div class="author_data">
+                                <span class="autor_name">Samanta</span>
+                            </div>                                                             
+                        </div>
+                        <a class="prev" href="#slide1">
+                            <img src="https://img.icons8.com/sf-ultralight-filled/50/000000/arrow-pointing-left.png" alt="" class="prev">
+                        </a>
+                        <a href="#slide2" class="next">
+                            <img src="https://img.icons8.com/sf-ultralight-filled/50/000000/arrow.png" alt="" class="prev">
+
+                        </a>             
+                       </div>
+                       </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer section" id="footer">
+        <div class="footer_container container grid">
+            <div class="footer_content">
+                <h3 class="footer_title">Контактная информация</h3>
+                <ul class="footer_list">
+                    <Li>+7-(999)-999-99-99</Li>
+                    <li>Москва, Ленина, 84</li>
+                    <Li>travel@mail.ru</Li>
+                </ul>
+            </div>
+        
+            <div class="footer_content">
+                <h3 class="footer_title">О нас</h3>
+                <ul class="footer_list">
+                    <Li>Политика конфиденциальности</Li>
+                    <li>Свяжитесь с нами</li>
+                    <Li>Описание</Li>
+                </ul>
+            </div>
+        
+            <div class="footer_content">
+                <h3 class="footer_title">Дополнительно</h3>
+                <ul class="footer_list">
+                    <Li>Согласие на обработку персональных данных</Li>
+                    <li>Новости</li>
+                    <Li>Карта сайта</Li>
+                </ul>
+            </div>
+        </div>
+        <span class="footer_copy"> &#169 2025 Мир путешественника. Все права защищены.</span>
+    </footer>
 </body>
 </html>
